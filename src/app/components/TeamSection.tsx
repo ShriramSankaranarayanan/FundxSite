@@ -9,8 +9,7 @@ const TeamSection: React.FC = () => (
         <div
           className="w-full aspect-square bg-cover rounded-lg"
           style={{
-            backgroundImage:
-              "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDwLcibrl0daP4_W5ZJZA5ApzeUEfTzo_OF4RbIFHtLtmGoVntm-5zxTUQP_8Asf8-dZQeR2Q7gQKYENs1JVtCELnlH00GrG27YjO9KjZyTGqpG2snoLwkB2xI5KHWbMFQ6zmr925vs_ogLn69A4DBt4-c_xkUql2us2ve0PF8H5HLVJGkW-0wcyVMz7Pk64dAsiJ59AvAZyqySrQbeWYgS2vPc_Q5z3V4O6qSu6dvXWEA7LhUNILrV6M_DQLo3t9NkOXpamXi3HCs')",
+            backgroundImage: "url('/FundxSite/team-marcus.jpg')",
           }}
         ></div>
         <p className="font-medium">Dr. Marcus Sterling, CFA</p>
@@ -24,8 +23,7 @@ const TeamSection: React.FC = () => (
         <div
           className="w-full aspect-square bg-cover rounded-lg"
           style={{
-            backgroundImage:
-              "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAxvcfTryrGKERsjz5UlmGnKyUBnm3aQ8g0KHUerg2ELWZuerkUwp7lngI4hDyck6BYI6x0xE8rkHzTUuJOQ1cNkRD6EIXf8XjSCCjAoUDAGQZoNaZPOaUkIqvduqEl4Yxuhd0Iqyv9SisiBOdgDGT_eBbgZ0h_Auw5QR0XJodgxB2xF5Xyl2wDTuHoWvFvNm2UxohNK6dwQoEJWYAxuwEf5HgPXfX2ADMvWDRLfae9wIcrFJl2hN1mm5lvbRGRFUa13tALpHXgZ4I')",
+            backgroundImage: "url('/FundxSite/team-isabella.jpg')",
           }}
         ></div>
         <p className="font-medium">Ms. Isabella Rossi, CFP</p>
@@ -39,8 +37,7 @@ const TeamSection: React.FC = () => (
         <div
           className="w-full aspect-square bg-cover rounded-lg"
           style={{
-            backgroundImage:
-              "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBzNcPv4W71GZOEZklAOdWT6z_Ln9Iv9a4mJHtEUQEhzsE5t5Qu5ASNsIdIpSYzF6lTSLjKmi5RZdCtVj36acVPjQet1nPh9L52HNhyKEfZZxWacmnIb4hU9N-pWDjHg47bsvqsJQlMsEE1labhQQLLhXEnAyV6Rg5uhCybJNdGK5TWVpODxf2KdrNDIivYerns-mzSsjP2K7Lix9wh8uTCrZXZPsPcT2-YJ8AvIpT-y7wHgEuEpsP00MkFNuBl9-7dS6Q7s7H8OZw')",
+            backgroundImage: "url('/FundxSite/team-noah.jpg')",
           }}
         ></div>
         <p className="font-medium">Mr. Noah Bennett, MBA</p>

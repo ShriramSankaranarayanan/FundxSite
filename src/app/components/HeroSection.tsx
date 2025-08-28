@@ -5,7 +5,7 @@ const HeroSection: React.FC = () => (
     className="flex flex-1 justify-center py-10 px-4 bg-cover bg-center"
     style={{
       backgroundImage:
-        "linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuDEc10fj7_XmBN39WDKD-iqBDW5-5Sc_Mgd-Q9JmDtaM481na_uVesu5lafKt15iOXUkdQOOIaZ5nCbHoFEwWNDcIQgA9eDP0yBrAlMgsHUmtm7ZsYMB1sW6P7ONIgN2o21MF-1TjzaepfxH-AS3FHKK2cEePa2Q7ee3HF1hL5xgor215o7F6MbYyM09Myt81dHbMF09PnPENjcKFBsBnyuPVojg9htNVXkqNmYDYJ-dO613gATfFg1jkdfADl9pFGcqnknfmjEKY4')",
+        "linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url('/FundxSite/hero-bg.jpg')",
     }}
   >
     <div className="flex flex-col items-center justify-center gap-4 bg-black/30 rounded-lg p-8 max-w-2xl w-full">
