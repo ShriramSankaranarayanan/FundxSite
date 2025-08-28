@@ -5,19 +5,19 @@ import styles from "./styles/TestimonialsSection.module.css";
 const testimonials = [
   {
     name: "Sophia",
-    avatar: "/FundxSite/testimonial-sophia.jpg",
+    avatar: "/testimonial-sophia.jpg",
     title: "Sophia's Journey to Financial Freedom",
     text: "Sophia achieved her dream of early retirement with FundexSecurities' strategic portfolio management, which prioritized capital preservation.",
   },
   {
     name: "Ethan",
-    avatar: "/FundxSite/testimonial-ethan.jpg",
+    avatar: "/testimonial-ethan.jpg",
     title: "Ethan's Retirement Planning Success",
     text: "Ethan secured a comfortable retirement by partnering with our expert advisors for long-term planning, focusing on minimizing potential risks.",
   },
   {
     name: "Olivia",
-    avatar: "/FundxSite/testimonial-olivia.jpg",
+    avatar: "/testimonial-olivia.jpg",
     title: "Olivia's Investment Growth Story",
     text: "Olivia saw significant growth in her investments through our tailored approach and proactive management, with a strong emphasis on downside protection.",
   },

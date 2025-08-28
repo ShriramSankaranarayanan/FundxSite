@@ -5,7 +5,7 @@ const HeroSection: React.FC = () => (
     className="flex flex-1 justify-center py-10 px-4 bg-cover bg-center"
     style={{
       backgroundImage:
-        "linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url('/FundxSite/hero-bg.jpg')",
+        "linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url('/hero-bg.jpg')",
     }}
   >
     <div className="flex flex-col items-center justify-center gap-4 bg-black/30 rounded-lg p-8 max-w-2xl w-full">

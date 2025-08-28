@@ -9,7 +9,7 @@ const TeamSection: React.FC = () => (
         <div
           className="w-full aspect-square bg-cover rounded-lg"
           style={{
-            backgroundImage: "url('/FundxSite/team-marcus.jpg')",
+            backgroundImage: "url('/team-marcus.jpg')",
           }}
         ></div>
         <p className="font-medium">Dr. Marcus Sterling, CFA</p>
@@ -23,7 +23,7 @@ const TeamSection: React.FC = () => (
         <div
           className="w-full aspect-square bg-cover rounded-lg"
           style={{
-            backgroundImage: "url('/FundxSite/team-isabella.jpg')",
+            backgroundImage: "url('/team-isabella.jpg')",
           }}
         ></div>
         <p className="font-medium">Ms. Isabella Rossi, CFP</p>
@@ -37,7 +37,7 @@ const TeamSection: React.FC = () => (
         <div
           className="w-full aspect-square bg-cover rounded-lg"
           style={{
-            backgroundImage: "url('/FundxSite/team-noah.jpg')",
+            backgroundImage: "url('/team-noah.jpg')",
           }}
         ></div>
         <p className="font-medium">Mr. Noah Bennett, MBA</p>
