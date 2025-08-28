@@ -1,0 +1,296 @@
+.quoteMarqueeContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.quoteMarquee {
+  display: flex;
+  gap: 2rem;
+  animation: quoteMarqueeX 30s linear infinite;
+}
+@keyframes quoteMarqueeX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.quoteGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  background: #f8fcfa;
+  padding: 2rem 0;
+}
+@media (min-width: 900px) {
+  .quoteGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.quoteCard {
+  background: #fff;
+  border-radius: 0.75rem;
+  border: 1px solid #d0e7de;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08);
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 350px;
+}
+.quoteLogo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #17d38b;
+  margin-bottom: 1.5rem;
+}
+.quoteText {
+  font-size: 1.25rem;
+  color: #0e1b16;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+.quoteProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.quoteAvatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #17d38b;
+}
+.quoteName {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.1rem;
+  text-align: center;
+  display: block;
+}
+.quoteRole {
+  color: #4e977b;
+  font-size: 1rem;
+}
+.quoteBlock {
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  background: #f8fcfa;
+  border-radius: 0.75rem;
+  border: 1px solid #d0e7de;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.quoteIcon {
+  margin-bottom: 0.5rem;
+}
+.quoteText {
+  font-size: 1.25rem;
+  color: #0e1b16;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.quoteAuthor {
+  color: #17d38b;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.bentoMarqueeContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.bentoMarquee {
+  display: flex;
+  gap: 1.5rem;
+  animation: bentoMarqueeX 30s linear infinite;
+}
+@keyframes bentoMarqueeX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.bentoGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 0 auto;
+  max-width: 900px;
+}
+@media (min-width: 640px) {
+  .bentoGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .bentoGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.bentoCard {
+  background: #f8fcfa;
+  border-radius: 0.5rem;
+  border: 1px solid #d0e7de;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08);
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  transition: box-shadow 0.2s;
+}
+.bentoCard:hover {
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.16);
+}
+.bentoAvatarWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.marqueeContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.marquee {
+  display: flex;
+  gap: 1.5rem;
+  animation: marqueeX 30s linear infinite;
+}
+@keyframes marqueeX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.horizontalList {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: #17d38b #16181c;
+}
+/* Card styles for testimonials */
+.card {
+  min-width: 240px;
+  max-width: 260px;
+  background: #f8fcfa;
+  border-radius: 0.5rem;
+  border: 1px solid #d0e7de;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.cardName {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0.25rem;
+}
+.cardTitle {
+  font-size: 1rem;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.cardText {
+  color: #4e977b;
+  font-size: 0.875rem;
+  text-align: center;
+}
+/* Horizontal list styles for testimonials */
+.horizontalList {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: #17d38b #e5e7eb;
+}
+/* TestimonialsSection.module.css */
+.section {
+  padding: 2.5rem 1rem;
+  background: #fff;
+}
+.title {
+  color: #0e1b16;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  .cardName {
+    font-weight: bold;
+    color: #0e1b16;
+    margin-bottom: 0.25rem;
+  }
+  .cardTitle {
+    font-size: 1rem;
+    color: #0e1b16;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+}
+.feedList {
+  max-width: 48rem;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08);
+  padding: 2rem;
+}
+.feedItem {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+.feedItem:last-child {
+  border-bottom: none;
+}
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  background: #e5e7eb;
+}
+.feedContent {
+  flex: 1;
+}
+.feedName {
+  font-weight: 600;
+  color: #0e1b16;
+  margin-bottom: 0.25rem;
+}
+.feedTitle {
+  font-size: 1rem;
+  color: #0e1b16;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.feedText {
+  color: #4e977b;
+  font-size: 0.95rem;
+}
